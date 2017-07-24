@@ -1,4 +1,7 @@
 # BitcoinBlockChainMinimalist
+
+<img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" /> <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift3-compatible-4BC51D.svg?style=flat" alt="Swift 3 compatible" /></a>
+
 快速查詢各類區塊鏈資產價格，快速查詢比特幣、以太坊、Zcash錢包餘額。
 
 串接API取得區塊鍊資訊
