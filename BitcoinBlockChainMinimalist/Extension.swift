@@ -13,7 +13,7 @@ extension NSAttributedString {
     
     static func enterN(ofSize: CGFloat) -> NSAttributedString {
         
-        let enterNAttributedString = NSAttributedString(string: "\n\n", attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: ofSize)])
+        let enterNAttributedString = NSAttributedString(string: "\n\n", attributes: [NSAttributedStringKey.font: UIFont.systemFont(ofSize: ofSize)])
         
         return enterNAttributedString
     }
@@ -24,13 +24,13 @@ extension NSAttributedString {
             
             if let color = color {
                 
-                let attributedString = NSAttributedString(string: string, attributes: [NSFontAttributeName: UIFont.boldSystemFont(ofSize: ofSize), NSForegroundColorAttributeName: color])
+                let attributedString = NSAttributedString(string: string, attributes: [NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: ofSize), NSAttributedStringKey.foregroundColor: color])
                 
                 return attributedString
                 
             } else {
                 
-                let attributedString = NSAttributedString(string: string, attributes: [NSFontAttributeName: UIFont.boldSystemFont(ofSize: ofSize)])
+                let attributedString = NSAttributedString(string: string, attributes: [NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: ofSize)])
                 return attributedString
             }
             
@@ -38,13 +38,13 @@ extension NSAttributedString {
             
             if let color = color {
                 
-                let attributedString = NSAttributedString(string: string, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: ofSize), NSForegroundColorAttributeName: color])
+                let attributedString = NSAttributedString(string: string, attributes: [NSAttributedStringKey.font: UIFont.systemFont(ofSize: ofSize), NSAttributedStringKey.foregroundColor: color])
                 
                 return attributedString
                 
             } else {
                 
-                let attributedString = NSAttributedString(string: string, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: ofSize)])
+                let attributedString = NSAttributedString(string: string, attributes: [NSAttributedStringKey.font: UIFont.systemFont(ofSize: ofSize)])
                 return attributedString
             }
         }
@@ -62,7 +62,7 @@ extension NSMutableAttributedString {
     
     static func paragraphSpaceLine(attributedText: NSMutableAttributedString, paragraphStyle: NSMutableParagraphStyle) -> NSMutableAttributedString {
         
-        attributedText.addAttribute(NSParagraphStyleAttributeName, value: paragraphStyle, range: .init(location: 0, length: (attributedText.length)))
+        attributedText.addAttribute(NSAttributedStringKey.paragraphStyle, value: paragraphStyle, range: .init(location: 0, length: (attributedText.length)))
         return attributedText
     }
 }
@@ -73,7 +73,7 @@ extension String {
     
     func heightWithConstrainedWidth(width: CGFloat, font: UIFont) -> CGFloat {
         let constraintRect = CGSize(width: width, height: CGFloat.greatestFiniteMagnitude)
-        let boundingBox = self.boundingRect(with: constraintRect, options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: [NSFontAttributeName: font], context: nil)
+        let boundingBox = self.boundingRect(with: constraintRect, options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font: font], context: nil)
         return boundingBox.height
     }
 }

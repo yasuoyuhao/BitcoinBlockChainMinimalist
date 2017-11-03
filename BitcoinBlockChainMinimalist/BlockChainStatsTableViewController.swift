@@ -58,7 +58,7 @@ class BlockChainStatsTableViewController: UITableViewController {
         
     }
     
-    func updateFailed() {
+    @objc func updateFailed() {
         self.endartactivityIndicator()
     }
     

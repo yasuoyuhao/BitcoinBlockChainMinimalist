@@ -56,7 +56,7 @@ class AssetPriceListBlockChain : UITableViewController {
     }
     
     // refreshControl
-    func refreshTable() {
+    @objc func refreshTable() {
         
         UIApplication.shared.beginIgnoringInteractionEvents()
         fetchDataFormAPI()
@@ -64,7 +64,7 @@ class AssetPriceListBlockChain : UITableViewController {
         UIApplication.shared.endIgnoringInteractionEvents()
     }
     
-    func updateFailed() {
+    @objc func updateFailed() {
         tableView.refreshControl?.endRefreshing()
         UIApplication.shared.endIgnoringInteractionEvents()
     }

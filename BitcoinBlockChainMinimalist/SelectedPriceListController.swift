@@ -56,7 +56,7 @@ class SelectedPriceListController: UICollectionViewController, UICollectionViewD
         navigationController?.navigationBar.topItem?.title = ""
     }
     
-    func handleChart() {
+    @objc func handleChart() {
         
         let alertController = UIAlertController(title: "請輸入圖表週期（天）", message: nil, preferredStyle: .alert)
         alertController.addTextField { (text) in

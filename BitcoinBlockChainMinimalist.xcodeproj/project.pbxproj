@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		762C89EA1F1E11D600823667 /* WalletQueryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C89E91F1E11D600823667 /* WalletQueryController.swift */; };
 		762C89EC1F1E2AD800823667 /* WalletDataBalanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C89EB1F1E2AD800823667 /* WalletDataBalanceController.swift */; };
+		764DEDE71FAC3726008C7D7D /* BitcoinBlockChainMinimalist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 764DEDE51FAC3726008C7D7D /* BitcoinBlockChainMinimalist.xcdatamodeld */; };
 		7677C71E1F175972007AD4B9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677C71D1F175972007AD4B9 /* AboutView.swift */; };
-		7677C7201F176001007AD4B9 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7677C71F1F176001007AD4B9 /* Launch Screen.storyboard */; };
 		7677C7231F1767A1007AD4B9 /* AboutBitcoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677C7221F1767A1007AD4B9 /* AboutBitcoin.swift */; };
 		7677C7251F1768A0007AD4B9 /* AboutBitconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677C7241F1768A0007AD4B9 /* AboutBitconCell.swift */; };
 		76B437381F1CA6E200805616 /* SelectedPriceListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B437371F1CA6E200805616 /* SelectedPriceListCell.swift */; };
@@ -20,8 +20,6 @@
 		76BBBDED1F1A1B7100A2B81C /* SelectedPriceListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BBBDEC1F1A1B7100A2B81C /* SelectedPriceListHeader.swift */; };
 		76EE4DCA1F149FB400A5ECA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE4DC91F149FB400A5ECA3 /* AppDelegate.swift */; };
 		76EE4DCC1F149FB400A5ECA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE4DCB1F149FB400A5ECA3 /* ViewController.swift */; };
-		76EE4DCF1F149FB400A5ECA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EE4DCD1F149FB400A5ECA3 /* Main.storyboard */; };
-		76EE4DD21F149FB400A5ECA3 /* BitcoinBlockChainMinimalist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76EE4DD01F149FB400A5ECA3 /* BitcoinBlockChainMinimalist.xcdatamodeld */; };
 		76EE4DD41F149FB400A5ECA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EE4DD31F149FB400A5ECA3 /* Assets.xcassets */; };
 		76EE4DDF1F14A05C00A5ECA3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE4DDE1F14A05C00A5ECA3 /* MainTabBarController.swift */; };
 		76EE4DE21F14A0E000A5ECA3 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EE4DE11F14A0E000A5ECA3 /* Extension.swift */; };
@@ -34,14 +32,15 @@
 		76F135491F1F3FD1007CDDD6 /* WalletInformationWithAPICell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F135481F1F3FD1007CDDD6 /* WalletInformationWithAPICell.swift */; };
 		76F1354C1F1F58B6007CDDD6 /* BTCAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1354B1F1F58B6007CDDD6 /* BTCAbout.swift */; };
 		76F1354F1F1F58F4007CDDD6 /* BTCAboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1354E1F1F58F4007CDDD6 /* BTCAboutCell.swift */; };
+		76F782AA1FAC341700834D21 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F782A91FAC341700834D21 /* Launch Screen.storyboard */; };
 		F072F62579BB23B44F8E73D6 /* Pods_BitcoinBlockChainMinimalist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E24AB11F55D794A9C0B405 /* Pods_BitcoinBlockChainMinimalist.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		762C89E91F1E11D600823667 /* WalletQueryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletQueryController.swift; sourceTree = "<group>"; };
 		762C89EB1F1E2AD800823667 /* WalletDataBalanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletDataBalanceController.swift; sourceTree = "<group>"; };
+		764DEDE61FAC3726008C7D7D /* BitcoinBlockChainMinimalist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitcoinBlockChainMinimalist.xcdatamodel; sourceTree = "<group>"; };
 		7677C71D1F175972007AD4B9 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		7677C71F1F176001007AD4B9 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		7677C7221F1767A1007AD4B9 /* AboutBitcoin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutBitcoin.swift; sourceTree = "<group>"; };
 		7677C7241F1768A0007AD4B9 /* AboutBitconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutBitconCell.swift; sourceTree = "<group>"; };
 		76B437371F1CA6E200805616 /* SelectedPriceListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedPriceListCell.swift; sourceTree = "<group>"; };
@@ -52,8 +51,6 @@
 		76EE4DC61F149FB400A5ECA3 /* BitcoinBlockChainMinimalist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinBlockChainMinimalist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76EE4DC91F149FB400A5ECA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76EE4DCB1F149FB400A5ECA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		76EE4DCE1F149FB400A5ECA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		76EE4DD11F149FB400A5ECA3 /* BitcoinBlockChainMinimalist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitcoinBlockChainMinimalist.xcdatamodel; sourceTree = "<group>"; };
 		76EE4DD31F149FB400A5ECA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76EE4DD81F149FB400A5ECA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76EE4DDE1F14A05C00A5ECA3 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -67,6 +64,7 @@
 		76F135481F1F3FD1007CDDD6 /* WalletInformationWithAPICell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletInformationWithAPICell.swift; sourceTree = "<group>"; };
 		76F1354B1F1F58B6007CDDD6 /* BTCAbout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCAbout.swift; sourceTree = "<group>"; };
 		76F1354E1F1F58F4007CDDD6 /* BTCAboutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTCAboutCell.swift; sourceTree = "<group>"; };
+		76F782A91FAC341700834D21 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A49C9195289040A8355B9F6F /* Pods-BitcoinBlockChainMinimalist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinBlockChainMinimalist.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinBlockChainMinimalist/Pods-BitcoinBlockChainMinimalist.release.xcconfig"; sourceTree = "<group>"; };
 		A6E24AB11F55D794A9C0B405 /* Pods_BitcoinBlockChainMinimalist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinBlockChainMinimalist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA618D06CDD6621D1DEAD8D4 /* Pods-BitcoinBlockChainMinimalist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinBlockChainMinimalist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitcoinBlockChainMinimalist/Pods-BitcoinBlockChainMinimalist.debug.xcconfig"; sourceTree = "<group>"; };
@@ -180,11 +178,10 @@
 				76EE4DC91F149FB400A5ECA3 /* AppDelegate.swift */,
 				76EE4DDE1F14A05C00A5ECA3 /* MainTabBarController.swift */,
 				76EE4DCB1F149FB400A5ECA3 /* ViewController.swift */,
-				76EE4DCD1F149FB400A5ECA3 /* Main.storyboard */,
 				76EE4DD31F149FB400A5ECA3 /* Assets.xcassets */,
-				7677C71F1F176001007AD4B9 /* Launch Screen.storyboard */,
 				76EE4DD81F149FB400A5ECA3 /* Info.plist */,
-				76EE4DD01F149FB400A5ECA3 /* BitcoinBlockChainMinimalist.xcdatamodeld */,
+				764DEDE51FAC3726008C7D7D /* BitcoinBlockChainMinimalist.xcdatamodeld */,
+				76F782A91FAC341700834D21 /* Launch Screen.storyboard */,
 			);
 			path = BitcoinBlockChainMinimalist;
 			sourceTree = "<group>";
@@ -280,12 +277,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = yasuoyuhao;
 				TargetAttributes = {
 					76EE4DC51F149FB400A5ECA3 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = LR3HKQ7MQQ;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -313,9 +311,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F782AA1FAC341700834D21 /* Launch Screen.storyboard in Resources */,
 				76EE4DD41F149FB400A5ECA3 /* Assets.xcassets in Resources */,
-				7677C7201F176001007AD4B9 /* Launch Screen.storyboard in Resources */,
-				76EE4DCF1F149FB400A5ECA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +340,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinBlockChainMinimalist/Pods-BitcoinBlockChainMinimalist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -358,13 +358,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitcoinBlockChainMinimalist-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -377,7 +380,6 @@
 				76EE4DE21F14A0E000A5ECA3 /* Extension.swift in Sources */,
 				76F1354F1F1F58F4007CDDD6 /* BTCAboutCell.swift in Sources */,
 				76F1354C1F1F58B6007CDDD6 /* BTCAbout.swift in Sources */,
-				76EE4DD21F149FB400A5ECA3 /* BitcoinBlockChainMinimalist.xcdatamodeld in Sources */,
 				76EE4DCC1F149FB400A5ECA3 /* ViewController.swift in Sources */,
 				76EE4DE71F14AA8000A5ECA3 /* AssetPriceListBlockChainCell.swift in Sources */,
 				76F135491F1F3FD1007CDDD6 /* WalletInformationWithAPICell.swift in Sources */,
@@ -396,23 +398,13 @@
 				76EE4DEB1F14AC1D00A5ECA3 /* GetDataClass.swift in Sources */,
 				76EE4DE41F14A3C200A5ECA3 /* AssetPriceListBlockChain.swift in Sources */,
 				762C89EA1F1E11D600823667 /* WalletQueryController.swift in Sources */,
+				764DEDE71FAC3726008C7D7D /* BitcoinBlockChainMinimalist.xcdatamodeld in Sources */,
 				7677C7231F1767A1007AD4B9 /* AboutBitcoin.swift in Sources */,
 				76EE4DCA1F149FB400A5ECA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		76EE4DCD1F149FB400A5ECA3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				76EE4DCE1F149FB400A5ECA3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		76EE4DD91F149FB400A5ECA3 /* Debug */ = {
@@ -425,7 +417,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -433,7 +427,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -475,7 +473,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -483,7 +483,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -519,7 +523,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yasuoyuhao.BitcoinBlockChainMinimalist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -535,7 +540,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yasuoyuhao.BitcoinBlockChainMinimalist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -564,12 +570,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		76EE4DD01F149FB400A5ECA3 /* BitcoinBlockChainMinimalist.xcdatamodeld */ = {
+		764DEDE51FAC3726008C7D7D /* BitcoinBlockChainMinimalist.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				76EE4DD11F149FB400A5ECA3 /* BitcoinBlockChainMinimalist.xcdatamodel */,
+				764DEDE61FAC3726008C7D7D /* BitcoinBlockChainMinimalist.xcdatamodel */,
 			);
-			currentVersion = 76EE4DD11F149FB400A5ECA3 /* BitcoinBlockChainMinimalist.xcdatamodel */;
+			currentVersion = 764DEDE61FAC3726008C7D7D /* BitcoinBlockChainMinimalist.xcdatamodel */;
 			path = BitcoinBlockChainMinimalist.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

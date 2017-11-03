@@ -35,7 +35,7 @@ class WalletInformationWithAPIController: UITableViewController {
     }
     
     
-    func updateFailed() {
+    @objc func updateFailed() {
         self.endartactivityIndicator()
     }
     
@@ -46,7 +46,7 @@ class WalletInformationWithAPIController: UITableViewController {
         
     }
     
-    func handleOK() {
+    @objc func handleOK() {
         dismiss(animated: true, completion: nil)
     }
     

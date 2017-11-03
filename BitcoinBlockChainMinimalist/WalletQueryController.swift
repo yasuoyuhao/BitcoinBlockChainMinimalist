@@ -24,7 +24,7 @@ class WalletQueryController: UITableViewController, NSFetchedResultsControllerDe
         return sc
     }()
     
-    func walletQueryChange() {
+    @objc func walletQueryChange() {
         
         setupSelectBlockChainAndURL()
         setDataByCategory()
@@ -56,7 +56,7 @@ class WalletQueryController: UITableViewController, NSFetchedResultsControllerDe
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "search"), style: .plain, target: self, action: #selector(handleAddAddress))
     }
     
-    func handleAddAddress() {
+    @objc func handleAddAddress() {
         
         let kind = self.walletQuerySegmentedControl.selectedSegmentIndex.description
         guard self.selectBlockChain["select"] == kind else { return }
