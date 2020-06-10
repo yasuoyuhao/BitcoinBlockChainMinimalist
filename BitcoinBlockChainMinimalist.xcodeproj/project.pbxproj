@@ -259,7 +259,6 @@
 				76EE4DC31F149FB400A5ECA3 /* Frameworks */,
 				76EE4DC41F149FB400A5ECA3 /* Resources */,
 				17AD26F917ED3608990B8859 /* [CP] Embed Pods Frameworks */,
-				077493EC036333703C89D1B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,28 +318,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		077493EC036333703C89D1B7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinBlockChainMinimalist/Pods-BitcoinBlockChainMinimalist-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		17AD26F917ED3608990B8859 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinBlockChainMinimalist/Pods-BitcoinBlockChainMinimalist-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BitcoinBlockChainMinimalist/Pods-BitcoinBlockChainMinimalist-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -349,7 +333,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitcoinBlockChainMinimalist/Pods-BitcoinBlockChainMinimalist-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitcoinBlockChainMinimalist/Pods-BitcoinBlockChainMinimalist-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C3F94EEED15CD1C6F5423480 /* [CP] Check Pods Manifest.lock */ = {
