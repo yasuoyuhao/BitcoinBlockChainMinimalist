@@ -33,7 +33,7 @@ class SelectedPriceListController: UICollectionViewController, UICollectionViewD
         
         collectionView?.backgroundColor = UIColor.minimalGray
         
-        collectionView?.register(SelectedPriceListHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: headerId)
+        collectionView?.register(SelectedPriceListHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerId)
         collectionView?.register(SelectedPriceListCell.self, forCellWithReuseIdentifier: cellId)
         
         collectionView?.alwaysBounceVertical = true
@@ -64,7 +64,7 @@ class SelectedPriceListController: UICollectionViewController, UICollectionViewD
             text.keyboardType = .numberPad
         }
         
-        alertController.addChildViewController(AssetPriceListBlockChain())
+        alertController.addChild(AssetPriceListBlockChain())
         let alertActionToReLoadChart = UIAlertAction(title: "完成", style: .default) { (alertAction) in
             guard let text = alertController.textFields?.first!.text else { return }
             guard let dayStringToDouble = Double(text) else { return }

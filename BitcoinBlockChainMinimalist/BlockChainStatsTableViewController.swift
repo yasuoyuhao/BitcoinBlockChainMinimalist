@@ -303,7 +303,7 @@ class BlockChainStatsTableViewController: UITableViewController {
         activityIndicator = UIActivityIndicatorView(frame: CGRect(x: 0.0, y: 0.0, width: 80 , height: 80 ))
         activityIndicator.hidesWhenStopped = true
         activityIndicator.center = tableView.center
-        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.whiteLarge
+        activityIndicator.style = UIActivityIndicatorView.Style.whiteLarge
         activityIndicator.backgroundColor = UIColor(red: 30/255, green: 32/255, blue: 40/255, alpha: 0.7)
         activityIndicator.layer.cornerRadius = 10
         activityIndicator.layer.masksToBounds = true

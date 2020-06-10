@@ -33,8 +33,8 @@ class AssetPriceListBlockChain : UITableViewController {
         tableView.contentInset = UIEdgeInsets(top: top, left: 0, bottom: 0, right: 0)
         tableView.scrollIndicatorInsets = UIEdgeInsets(top: top, left: 0, bottom: 0, right: 0)
         
-        tableView.layoutMargins = UIEdgeInsetsMake(0, 8, 0, 0)
-        tableView.separatorInset = UIEdgeInsetsMake(0, 20, 0, 20)
+        tableView.layoutMargins = UIEdgeInsets.init(top: 0, left: 8, bottom: 0, right: 0)
+        tableView.separatorInset = UIEdgeInsets.init(top: 0, left: 20, bottom: 0, right: 20)
         tableView.separatorStyle = .none
         tableView.backgroundColor = UIColor.minimalGray
     }
@@ -215,7 +215,7 @@ class AssetPriceListBlockChain : UITableViewController {
         activityIndicator = UIActivityIndicatorView(frame: CGRect(x: 0.0, y: 0.0, width: 80 , height: 80 ))
         activityIndicator.center = self.tableView.center
         activityIndicator.hidesWhenStopped = true
-        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.whiteLarge
+        activityIndicator.style = UIActivityIndicatorView.Style.whiteLarge
         activityIndicator.backgroundColor = UIColor(red: 30/255, green: 32/255, blue: 40/255, alpha: 0.7)
         activityIndicator.layer.cornerRadius = 10
         activityIndicator.layer.masksToBounds = true

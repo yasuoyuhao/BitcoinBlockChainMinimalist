@@ -25,8 +25,8 @@ class AboutView: UITableViewController {
         tableView.contentInset = UIEdgeInsets(top: top, left: 0, bottom: 0, right: 0)
         tableView.scrollIndicatorInsets = UIEdgeInsets(top: top, left: 0, bottom: 0, right: 0)
         
-        tableView.layoutMargins = UIEdgeInsetsMake(0, 8, 0, 0)
-        tableView.separatorInset = UIEdgeInsetsMake(0, 20, 0, 20)
+        tableView.layoutMargins = UIEdgeInsets.init(top: 0, left: 8, bottom: 0, right: 0)
+        tableView.separatorInset = UIEdgeInsets.init(top: 0, left: 20, bottom: 0, right: 20)
         tableView.separatorStyle = .none
         tableView.backgroundColor = UIColor.minimalGray
     }

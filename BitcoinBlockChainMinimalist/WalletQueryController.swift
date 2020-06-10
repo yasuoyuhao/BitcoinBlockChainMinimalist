@@ -68,7 +68,7 @@ class WalletQueryController: UITableViewController, NSFetchedResultsControllerDe
             text.keyboardType = .emailAddress
         }
         
-        alertController.addChildViewController(AssetPriceListBlockChain())
+        alertController.addChild(AssetPriceListBlockChain())
         let alertActionToReLoadChart = UIAlertAction(title: "完成", style: .default) { (alertAction) in
             guard let address = alertController.textFields?.first!.text else { return }
             var addressRemoveBlank = address as NSString
@@ -148,7 +148,7 @@ class WalletQueryController: UITableViewController, NSFetchedResultsControllerDe
         
         addRessInfos.forEach({ (address) in
             
-            guard let index = addRessInfos.index(of: address) else { return }
+            guard let index = addRessInfos.firstIndex(of: address) else { return }
             let indexPath = IndexPath(row: index, section: 0)
             
             if selectBlockChain["blockChain"] == address.kind {
@@ -214,7 +214,7 @@ class WalletQueryController: UITableViewController, NSFetchedResultsControllerDe
     
     // delete row
     
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         
         if editingStyle == .delete {
             
